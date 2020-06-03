@@ -1,0 +1,21 @@
+<div class="container">
+  <section id="content">
+    <form action="">
+      <h1>Login Form</h1>
+      <div>
+        <input type="text" placeholder="Username" required="" id="login" [(ngModel)]="user.login" name="login"/>
+      </div>
+      <div>
+        <input type="password" placeholder="Password" required="" id="password" [(ngModel)]="user.password" name="password"/>
+      </div>
+      <div>
+        <input type="submit" value="Log in" (click)="sendUser(user)"/>
+        <a href="/registration">Register</a>
+        <a href="/buttle">Test</a>
+      </div>
+    </form>
+
+  </section>
+</div>
+
+

@@ -13,7 +13,7 @@ export class HttpService {
       login: user.login,
       password: user.password
     };
-    return this.http.post('http://localhost:8888/authorization', body);
+    return this.http.post('http://localhost:8888/api/login', body);
   }
 
   postDataUserReg(userReg: UserReg) {

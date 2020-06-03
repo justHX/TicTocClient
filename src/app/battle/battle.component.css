@@ -1,0 +1,10 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.all_cells{
+  padding-left: 35%;
+  padding-top: 2rem;
+}

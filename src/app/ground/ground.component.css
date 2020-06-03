@@ -1,0 +1,15 @@
+div {
+  height: 7rem;
+  width: 7rem;
+  background-color: skyblue;
+  float: left;
+  margin: 0 4px 4px 0;
+  color: black;
+  text-align: center;
+  font-size: 5rem;
+  cursor: default;
+}
+
+div:hover{
+  opacity: 0.5;
+}
